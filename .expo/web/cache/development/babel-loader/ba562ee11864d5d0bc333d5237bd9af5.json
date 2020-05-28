@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var APIBase = 'https://api.coinmarketcap.com';","map":{"version":3,"sources":["/Users/simon/Documents/GitHub/Crypto-Tracker/crypto-tracker-v1/src/Utilities/Constants.js"],"names":["APIBase"],"mappings":"AAAA,OAAO,IAAMA,OAAO,GAAG,+BAAhB","sourcesContent":["export const APIBase = 'https://api.coinmarketcap.com';\n\n"]},"metadata":{},"sourceType":"module"}
