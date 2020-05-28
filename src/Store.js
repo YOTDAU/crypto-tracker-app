@@ -4,7 +4,6 @@ import devTools from 'remote-redux-devtools';
 import promise from 'redux-promise';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger'
-import { composeWithDevTools } from 'redux-devtools-extension'
 
 import RootReducer from './Reducers'
 
@@ -14,7 +13,6 @@ const Store = createStore(
     RootReducer, 
     compose(
         middleware,
-        // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
         window.__REDUX_DEVTOOLS_EXTENSION__
         ? window.__REDUX_DEVTOOLS_EXTENSION__()
         : f => f 

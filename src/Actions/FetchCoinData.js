@@ -6,11 +6,6 @@ export default function FetchCoinData() {
     return dispatch => {
 
         dispatch({ type: FETCHING_COIN_DATA })
-
-        // return fetch('https://ee9ml7v06b.execute-api.us-east-1.amazonaws.com/dev/getCoins')
-        //         .then(response => response.json()).then(data => console.log(data))
-// works to log into console.
-
         
         return axios.get(`https://ee9ml7v06b.execute-api.us-east-1.amazonaws.com/dev/getCoins`)
             .then(res => {
