@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 72351,
+  "expoServerNgrokUrl": "https://5u-yyc.yotdau.crypto-tracker-v1.exp.direct",
+  "packagerNgrokUrl": "https://packager.5u-yyc.yotdau.crypto-tracker-v1.exp.direct",
+  "ngrokPid": 72363,
   "webpackServerPort": null
 }

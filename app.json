@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "crypto-tracker-v1",
-    "slug": "crypto-tracker-v1",
+    "name": "crypto-tracker-app",
+    "slug": "crypto-tracker-app",
     "platforms": [
       "ios",
       "android",
@@ -23,7 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Learning to use react-native (and a bit of redux) by making a cryptocurrency price checker (api returns snapshot of old data as didnt want to pay for requests etc)"
   },
   "name": "crypto-tracker-v1"
 }
