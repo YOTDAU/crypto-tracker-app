@@ -1,10 +1,10 @@
 This is an app for tracking the top cryptocurrencies ordered by marketcap. It was a chance to introduce myself to and test a few new concepts including;
 
-- [x] React-native framweworks for iOS and Android apps
-- [x] Node.js
-- [x] AWS Lamda functions and with Serverless framework
-- [x] Expo modules
-- [x] Using real-world APIs
+* React-native framweworks for iOS and Android apps
+* Node.js
+* AWS Lamda functions and with Serverless framework
+* Expo modules
+* Using real-world APIs
 
 Here are some screenshots of the final product. 
 
