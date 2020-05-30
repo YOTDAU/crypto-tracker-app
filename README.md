@@ -1,7 +1,29 @@
-Set up with npm start and i when expo is asking for a device input.
+This is an app for tracking the top cryptocurrencies ordered by marketcap. It was a chance to introduce myself to and test a few new concepts including;
 
-Uses AWS lamda function via serverless to recieve the API due to CORs blocking if the API key being in the codebase.
+- [x] React-native framweworks for iOS and Android apps
+- [x] Node.js
+- [x] AWS Lamda functions and with Serverless framework
+- [x] Expo modules
+- [x] Using real-world APIs
 
-CoinMarketCap sandbox API will return data based on snapshot update from 30/08/2019 - 18:51:02.
+Here are some screenshots of the final product. 
 
-Alterntively I could've used the CoinGecko API, which is free and doesn't require any headers. However, once the project got going I enjoyed the challenge of setting up the headers correctly and experimenting with AWS Lamda as part of the learning process while getting more experience with real-world API deployment. A good thing about the sandbox api was that it recreated all aspects of _pro_ version and not just the format and type of data that was returned. 
+![](assets/screenshot_1.png)              ![](assets/screenshot_2.png)
+
+I chose not to deploy this project as it was more for the learning experience, moreover, it uses a sandbox API from CoinMarketCap which returns a snapshot of old market prices, making it fairly redundant if one wants to check real-time prices! 
+
+You may notice some of the logos are incorrect. This is because I was spending too long trying to find specific logos that weren't included in a package I found - so instead decided to replace them with what you see. 
+
+If you really must try the app please follow these instructions.
+
+Clone or fork the repo.
+Download an mobile simulator (I used Xcode). Or use Expo Snack (requires additional steps)
+Run npm install
+Follow terminal commands to open the app in whichever environment you fancy.
+
+For a more in-depth write up please see (add link)
+
+
+
+
+
