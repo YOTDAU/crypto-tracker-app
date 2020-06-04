@@ -21,7 +21,7 @@ If you really must try the app please follow these instructions.
 * Run npm install
 * Follow terminal commands to open the app in whichever environment you fancy.
 
-For a more in-depth write up please see (add link)
+For a more in-depth write up please see https://sjtucker.dev/posts/crypto-tracker
 
 
 
