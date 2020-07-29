@@ -1,6 +1,6 @@
 This is an app for tracking the top cryptocurrencies ordered by marketcap. It was a chance to introduce myself to and test a few new concepts including;
 
-* React-native framweworks for iOS and Android apps
+* React-native framework for iOS and Android apps
 * Node.js
 * AWS Lamda functions and with Serverless framework
 * Expo modules
